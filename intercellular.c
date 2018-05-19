@@ -148,6 +148,7 @@ void divide_celula(Cell *C, int i, ALLEGRO_EVENT ev){
 
   free(aux_dx);
   free(aux_dy);
+  free(taxa);
 }
 
 //Funcao para quando jogador clica para ganhar gera_impulso
@@ -298,11 +299,8 @@ int main (int argc, char **argv){
   ALLEGRO_FONT *font_bebas_60 = NULL;
   ALLEGRO_FONT *font_bebas_50 = NULL;
 
-
   FILE *file_recordes = NULL;
-
   int qtd_celulas = 60;
-  struct Cell *C = (Cell*) calloc(qtd_celulas, sizeof (Cell));
 
   //inicialização da bilbioteca Allegro 5:
   if (!al_init()) {
@@ -424,6 +422,8 @@ int main (int argc, char **argv){
      al_destroy_timer(timer);
      return -1;
   }
+	
+  struct Cell *C = (Cell*) calloc(qtd_celulas, sizeof (Cell));
 
   //registrando a origem dos eventos:
   al_register_event_source(event_queue, al_get_display_event_source(display));
