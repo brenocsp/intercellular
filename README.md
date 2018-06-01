@@ -10,7 +10,7 @@ Nesse jogo, você controla uma célula em um mapa que representa uma placa de Pe
 ![alt text](https://github.com/brenocsp/intercellular/blob/master/images/img_main_menu.jpg)
 
 
-**FIGURA 3:** _Gameplay_
+**FIGURA 2:** _Gameplay_
 
 ![alt text](https://github.com/brenocsp/intercellular/blob/master/images/img_screenshot.jpg)
 
