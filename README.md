@@ -9,18 +9,8 @@ Nesse jogo, você controla uma célula em um mapa que representa uma placa de Pe
 
 ![alt text](https://github.com/brenocsp/intercellular/blob/master/images/img_main_menu.jpg)
 
-**FIGURA 2:** _Tela de tutorial do jogo_
-
-![alt text](https://github.com/brenocsp/intercellular/blob/master/images/img_tutorial.jpg)
 
 **FIGURA 3:** _Gameplay_
 
 ![alt text](https://github.com/brenocsp/intercellular/blob/master/images/img_screenshot.jpg)
 
-**FIGURA 4:** _Tela de vitoria do jogo_
-
-![alt text](https://github.com/brenocsp/intercellular/blob/master/images/img_vitoria.jpg)
-
-**FIGURA 5:** _Tela de derrota do jogo_
-
-![alt text](https://github.com/brenocsp/intercellular/blob/master/images/img_derrota.jpg)
